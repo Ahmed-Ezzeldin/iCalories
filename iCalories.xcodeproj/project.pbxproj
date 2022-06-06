@@ -51,6 +51,9 @@
 		80BD2C6C284DEB6300C8BAD1 /* iCalories */ = {
 			isa = PBXGroup;
 			children = (
+				80BD2C7E284DF0D600C8BAD1 /* ViewModel */,
+				80BD2C7D284DF0CD00C8BAD1 /* Model */,
+				80BD2C7C284DF0A600C8BAD1 /* View */,
 				80BD2C6D284DEB6300C8BAD1 /* iCaloriesApp.swift */,
 				80BD2C6F284DEB6300C8BAD1 /* ContentView.swift */,
 				80BD2C71284DEB6400C8BAD1 /* Assets.xcassets */,
@@ -65,6 +68,35 @@
 				80BD2C74284DEB6400C8BAD1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80BD2C7B284DF09A00C8BAD1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		80BD2C7C284DF0A600C8BAD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80BD2C7B284DF09A00C8BAD1 /* Screens */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80BD2C7D284DF0CD00C8BAD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80BD2C7E284DF0D600C8BAD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
