@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80622841284F4350005AAA92 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8062283F284F4350005AAA92 /* FoodModel.xcdatamodeld */; };
+		80622843284F4498005AAA92 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80622842284F4498005AAA92 /* DataController.swift */; };
+		80622846284F4990005AAA92 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80622845284F4990005AAA92 /* AddFoodView.swift */; };
+		80622848284F4D3D005AAA92 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80622847284F4D3D005AAA92 /* TimeFormatting.swift */; };
+		8062284A284F5D82005AAA92 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80622849284F5D82005AAA92 /* EditFoodView.swift */; };
 		80BD2C6E284DEB6300C8BAD1 /* iCaloriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD2C6D284DEB6300C8BAD1 /* iCaloriesApp.swift */; };
-		80BD2C70284DEB6300C8BAD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD2C6F284DEB6300C8BAD1 /* ContentView.swift */; };
+		80BD2C70284DEB6300C8BAD1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD2C6F284DEB6300C8BAD1 /* HomeScreen.swift */; };
 		80BD2C72284DEB6400C8BAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BD2C71284DEB6400C8BAD1 /* Assets.xcassets */; };
 		80BD2C75284DEB6400C8BAD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BD2C74284DEB6400C8BAD1 /* Preview Assets.xcassets */; };
+		80BD2C82284DF30E00C8BAD1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD2C81284DF30E00C8BAD1 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80622840284F4350005AAA92 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
+		80622842284F4498005AAA92 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		80622845284F4990005AAA92 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		80622847284F4D3D005AAA92 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		80622849284F5D82005AAA92 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 		80BD2C6A284DEB6300C8BAD1 /* iCalories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BD2C6D284DEB6300C8BAD1 /* iCaloriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCaloriesApp.swift; sourceTree = "<group>"; };
-		80BD2C6F284DEB6300C8BAD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80BD2C6F284DEB6300C8BAD1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		80BD2C71284DEB6400C8BAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80BD2C74284DEB6400C8BAD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80BD2C81284DF30E00C8BAD1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		80BD2C83284DF31F00C8BAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80622844284F4931005AAA92 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				80622847284F4D3D005AAA92 /* TimeFormatting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		80BD2C61284DEB6300C8BAD1 = {
 			isa = PBXGroup;
 			children = (
@@ -51,11 +72,12 @@
 		80BD2C6C284DEB6300C8BAD1 /* iCalories */ = {
 			isa = PBXGroup;
 			children = (
-				80BD2C7E284DF0D600C8BAD1 /* ViewModel */,
-				80BD2C7D284DF0CD00C8BAD1 /* Model */,
-				80BD2C7C284DF0A600C8BAD1 /* View */,
 				80BD2C6D284DEB6300C8BAD1 /* iCaloriesApp.swift */,
-				80BD2C6F284DEB6300C8BAD1 /* ContentView.swift */,
+				80BD2C83284DF31F00C8BAD1 /* Info.plist */,
+				80BD2C7E284DF0D600C8BAD1 /* ViewModel */,
+				80BD2C7D284DF0CD00C8BAD1 /* DataModel */,
+				80622844284F4931005AAA92 /* Helpers */,
+				80BD2C7C284DF0A600C8BAD1 /* View */,
 				80BD2C71284DEB6400C8BAD1 /* Assets.xcassets */,
 				80BD2C73284DEB6400C8BAD1 /* Preview Content */,
 			);
@@ -73,6 +95,10 @@
 		80BD2C7B284DF09A00C8BAD1 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				80BD2C6F284DEB6300C8BAD1 /* HomeScreen.swift */,
+				80BD2C81284DF30E00C8BAD1 /* SplashScreen.swift */,
+				80622845284F4990005AAA92 /* AddFoodView.swift */,
+				80622849284F5D82005AAA92 /* EditFoodView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -85,11 +111,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		80BD2C7D284DF0CD00C8BAD1 /* Model */ = {
+		80BD2C7D284DF0CD00C8BAD1 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				8062283F284F4350005AAA92 /* FoodModel.xcdatamodeld */,
+				80622842284F4498005AAA92 /* DataController.swift */,
 			);
-			path = Model;
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 		80BD2C7E284DF0D600C8BAD1 /* ViewModel */ = {
@@ -169,8 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80BD2C70284DEB6300C8BAD1 /* ContentView.swift in Sources */,
+				80622843284F4498005AAA92 /* DataController.swift in Sources */,
+				80622848284F4D3D005AAA92 /* TimeFormatting.swift in Sources */,
+				80BD2C82284DF30E00C8BAD1 /* SplashScreen.swift in Sources */,
+				80622846284F4990005AAA92 /* AddFoodView.swift in Sources */,
+				80BD2C70284DEB6300C8BAD1 /* HomeScreen.swift in Sources */,
 				80BD2C6E284DEB6300C8BAD1 /* iCaloriesApp.swift in Sources */,
+				8062284A284F5D82005AAA92 /* EditFoodView.swift in Sources */,
+				80622841284F4350005AAA92 /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +337,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iCalories/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iCalories/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,9 +365,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iCalories/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iCalories/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -371,6 +405,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8062283F284F4350005AAA92 /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80622840284F4350005AAA92 /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = 80622840284F4350005AAA92 /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 80BD2C62284DEB6300C8BAD1 /* Project object */;
 }
